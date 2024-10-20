@@ -113,11 +113,19 @@ export default function Login() {
   return (
     <div className="flex flex-col h-screen bg-white">
       <div className="relative flex-1">
-        <img
-          src="/placeholder.svg?height=400&width=400"
+        {/* <img
+          src="/Group6806.svg?height=400&width=400"
           alt="Groceries"
           className="absolute inset-0 w-full h-full object-cover"
-        />
+        /> */}
+       <div
+        className="h-[350px] w-full"
+        style={{
+          backgroundImage: 'url("/signGroup.svg")',
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white" />
       </div>
       <div className="relative z-10 px-6 pb-8">
